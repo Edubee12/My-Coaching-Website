@@ -1,0 +1,251 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  width: 10%;
+  position: relative;
+  left: 200px;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: cornflowerblue;
+  color: #fff;
+    background-image: url("https://transparenttextures.com/patterns/cubes.png");
+}
+
+.white-section {
+  background-color: #F7F7F7;
+  background-image: url("https://transparenttextures.com/patterns/cubes.png")
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  padding: 0 5%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+
+}
+.navbar-link{
+  margin-left: 60%;
+}
+
+/* Buttons */
+.showme-button {
+  text-align: center;
+margin-top: 5%;
+
+}
+
+.alarm-clock {
+    color: #610094;
+}
+
+.starthere-button {
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+/* Title Section */
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+.homepage {
+  background-image: url("https://drive.google.com/uc?id=1wZggynXq6FR3Q9ElL2TQsQbGh-9IIJof");
+  background-position: 0px 0px;
+    background-repeat: repeat-x;
+  height: 600px;
+}
+.header-text{
+  text-align: center;
+  /* width: fit-content; */
+  font-family: 'Spartan', sans-serif;
+  font-size: 2.16rem;
+  line-height: 1.0;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.homepage-text {
+  color: white;
+  text-align: left;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  right: 0px;
+    background-image: url("https://transparenttextures.com/patterns/cubes.png")
+}
+
+.checksquare {
+  color: #610094;
+}
+
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-images {
+  height: 150px;
+  width: 200px;
+}
+
+/* Testimonial Section */
+#testimonials {}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* About Section */
+.edwin-pic {
+  height: 350px;
+  width: 240px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0;
+}
+
+.about-text {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Work with Me Section */
+.hr-workwithme{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  width: 50%;
+  position: relative;
+  left: 200px;
+}
+.workwithme-icon{
+  margin: 20px 10px;
+  font-size: 4rem;
+  color: #610094;
+}
+/* Footer Section */
+.social-icon {
+  margin: 0px 10px;
+}
+.copyright-text{
+  text-align: left;
+}
+
+.freesessionbutton {
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.bottom-text {
+  margin-bottom: 0;
+}
+
+#footer {
+  padding-bottom: 0px;
+}
+
+/* Blog Section */
+.blog{
+  color: Black;
+  padding-top: 20px;
+
+}
+.blog-paragraph{
+  text-align: left;
+}
+.spantext{
+  font-size: 0.5rem;
+color: grey;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
